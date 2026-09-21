@@ -38,3 +38,11 @@ elif nilai >= 50:
 else:
     print("Nilai D atau E")
 
+#sekarang masuk operator perbandingan, operator perbandingan digunakan untuk membandingkan dua nilai. Operator perbandingan akan menghasilkan nilai boolean True atau False. Berikut adalah operator perbandingan yang umum digunakan:
+#1. Sama dengan (==)
+umur = 20
+
+if umur >= 17:
+    print("Boleh membuat KTP")
+else:
+    print("Belum cukup umur")
