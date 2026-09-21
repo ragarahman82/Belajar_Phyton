@@ -46,3 +46,22 @@ if umur >= 17:
     print("Boleh membuat KTP")
 else:
     print("Belum cukup umur")
+
+#Sekarang kita naik satu tingkat: operator logika.
+#and
+umur = 20 #true
+punya_ktp = True #true
+
+if umur >= 17 and punya_ktp:
+    print("Boleh mendaftar")
+else:
+    print("Tidak boleh mendaftar")
+
+umur = 20 #true
+punya_ktp = False #false
+
+if umur >= 17 and punya_ktp:
+    print("Boleh mendaftar")
+else:
+    print("Tidak boleh mendaftar")
+
