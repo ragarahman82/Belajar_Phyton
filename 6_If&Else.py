@@ -73,4 +73,10 @@ if hari == "Sabtu" or hari == "Minggu":
 else:
     print("Hari kerja")
 
+#not
+login = False
 
+if not login:
+    print("Silakan login")
+else:
+    print("Selamat datang")
