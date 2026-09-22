@@ -65,3 +65,12 @@ if umur >= 17 and punya_ktp:
 else:
     print("Tidak boleh mendaftar")
 
+#or
+hari = "Minggu"
+
+if hari == "Sabtu" or hari == "Minggu":
+    print("Hari libur")
+else:
+    print("Hari kerja")
+
+
