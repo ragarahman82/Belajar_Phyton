@@ -80,3 +80,21 @@ if not login:
     print("Silakan login")
 else:
     print("Selamat datang")
+
+#Sekarang kita masuk ke bagian penting: nested if
+#Nested if artinya if berada di dalam if.
+
+umur = 20
+punya_tiket = True
+
+if umur >= 18:
+    print("Umur memenuhi")
+
+    if punya_tiket:
+        print("Boleh masuk")
+    else:
+        print("Tidak punya tiket")
+else:
+    print("Umur belum cukup")
+
+    
