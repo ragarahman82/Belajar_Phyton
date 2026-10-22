@@ -22,3 +22,18 @@ buah = ["Apel", "Mangga"]
 buah.insert(1, "Jeruk")
 
 print(buah)
+
+#pop() : untuk menghapus data dari list berdasarkan index.
+buah = ["Apel", "Jeruk", "Mangga"]
+
+buah.pop(1)
+
+print(buah)
+
+#sort() : untuk mengurutkan data di dalam list.
+angka = [5, 2, 8, 1, 3]
+
+angka.sort()
+
+print(angka)
+
